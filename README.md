@@ -1,5 +1,3 @@
-# php_1000_bulit_in_function
-
 <h1>php built in function</h1>
 
 
@@ -98,23 +96,23 @@
 
 ## 49.array_uintersect_assoc() = দুই বা ততোধিক array এর মধ্যে key এবং value তুলনা করে মিল রিটার্ন করে (এক্ষত্রে বিল্ট-ইন ফাংশন ব্যবহার করে key তুলনা করে এবং ইউজার-ডিফাইন ফাংশন ব্যবহার করে value তুলনা করে)।
 
-## ## 50.array_uintersect_uassoc() = দুটি পৃথক কলব্যাক ফাংশন ব্যবহার করে দুই বা ততোধিক array এর মধ্যে key এবং value তুলনা করে মিল রিটার্ন করে।
+##  50.array_uintersect_uassoc() = দুটি পৃথক কলব্যাক ফাংশন ব্যবহার করে দুই বা ততোধিক array এর মধ্যে key এবং value তুলনা করে মিল রিটার্ন করে।
 
-## ## 51.array_unique() = array থেকে ডুপ্লিকেট ভ্যালু সরিয়ে ফেলে।
+ ## 51.array_unique() = array থেকে ডুপ্লিকেট ভ্যালু সরিয়ে ফেলে।
 
-## ## 52. array_unshift() = array এর শুরুতে এক বা একাধিক এলিমেন্ট যুক্ত করে।
+ ## 52. array_unshift() = array এর শুরুতে এক বা একাধিক এলিমেন্ট যুক্ত করে।
 
-## ## 53. array_values() =  array এর সকল ভ্যালু রিটার্ন করে।
+## 53. array_values() =  array এর সকল ভ্যালু রিটার্ন করে।
 
-## ## 54. array_walk() =  array এর প্রতিটি এলিমেন্টে ইউজার কর্তৃক ফাংশন প্রয়োগ করে।
+## 54. array_walk() =  array এর প্রতিটি এলিমেন্টে ইউজার কর্তৃক ফাংশন প্রয়োগ করে।
 
-## ## 55. array_walk_recursive() = array এর প্রতিটি এলিমেন্টে পোনঃপূনিকভাবে(recursively) ইউজার কর্তৃক ফাংশন প্রয়োগ করে।
+## 55. array_walk_recursive() = array এর প্রতিটি এলিমেন্টে পোনঃপূনিকভাবে(recursively) ইউজার কর্তৃক ফাংশন প্রয়োগ করে।
 
-## ## 56.arsort() = একটি associative array কে value অনুযায়ী বিপরীতক্রমে সাজায়।
+## 56.arsort() = একটি associative array কে value অনুযায়ী বিপরীতক্রমে সাজায়।
 
-## ## 57.asort() =  একটি associative array কে value অনুযায়ী ক্রমানুসারে সাজায়।
+## 57.asort() =  একটি associative array কে value অনুযায়ী ক্রমানুসারে সাজায়।
 
-## ## 58.compact() = ভেরিয়েবল এবং তাদের ভ্যালু বিশিষ্ট একটি নতুন array তৈরি করে।
+## 58.compact() = ভেরিয়েবল এবং তাদের ভ্যালু বিশিষ্ট একটি নতুন array তৈরি করে।
 
 ## 59. count()= একটি array এর এলিমেন্টের সংখ্যা রিটার্ন করে।
 
@@ -166,7 +164,7 @@
 
 <h1>পিএইচপি ক্যালেন্ডার ফাংশন - PHP Calendar Function</h1>
 
-<h4>
+
     
    ## 01.cal_days_in_month() = একটি নির্দিষ্ট বছর ও ক্যালেন্ডারের জন্য নির্ধারিত মাসে দিনের সংখ্যা রিটার্ন করে।
 
@@ -174,50 +172,36 @@
 
     ## 03.cal_info() = নির্ধারিত ক্যালেন্ডার এর তথ্য রিটার্ন করে।
 
-    ## ## 04.cal_to_jd() = নির্ধারিত ক্যালেন্ডারকে Julian Day Count ক্যালেন্ডারে রূপান্তর করে।
-    easter_date()
-## ## একটি নির্দিষ্ট বছরে Easter Date এর মধ্যরাত্রির জন্য ইউনিক্স টাইমস্ট্যাম্প রিটার্ন করে।
+## 04.cal_to_jd() = নির্ধারিত ক্যালেন্ডারকে Julian Day Count ক্যালেন্ডারে রূপান্তর করে।
+##  easter_date() = একটি নির্দিষ্ট বছরে Easter Date এর মধ্যরাত্রির জন্য ইউনিক্স টাইমস্ট্যাম্প রিটার্ন করে।
 
-## ## easter_days()
-২১শে মার্চের পর দিনের সংখ্যা রিটার্ন করে। এটি একটি নির্দিষ্ট বছরের Easter দিন।
+ ## easter_days() =২১শে মার্চের পর দিনের সংখ্যা রিটার্ন করে। এটি একটি নির্দিষ্ট বছরের Easter দিন।
 
-## ## frenchtojd()
-French Republican তারিখকে Julian Day Count এ রূপান্তর করে।
+## frenchtojd() =French Republican তারিখকে Julian Day Count এ রূপান্তর করে।
 
-## ## gregoriantojd()
-Gregorian তারিখকে Julian Day Count এ রূপান্তর করে।
+## gregoriantojd() = Gregorian তারিখকে Julian Day Count এ রূপান্তর করে।
 
-## ## jddayofweek()
-সপ্তাহের দিনের নাম রিটার্ন করে।
+## jddayofweek() = সপ্তাহের দিনের নাম রিটার্ন করে।
 
-## ## jdmonthname()
-মাসের নাম রিটার্ন করে।
+## jdmonthname() = মাসের নাম রিটার্ন করে।
 
-## ## jdtofrench()
-Julian Day Count কে French Republican ক্যালেন্ডারে রূপান্তর করে।
+## jdtofrench() = Julian Day Count কে French Republican ক্যালেন্ডারে রূপান্তর করে।
 
-## jdtogregorian()
-Julian Day Count কে Gregorian ক্যালেন্ডারে রূপান্তর করে।
+## jdtogregorian() = Julian Day Count কে Gregorian ক্যালেন্ডারে রূপান্তর করে।
 
-## jdtojewish()
-Julian Day Count কে Jewish ক্যালেন্ডারে রূপান্তর করে।
+## jdtojewish() = Julian Day Count কে Jewish ক্যালেন্ডারে রূপান্তর করে।
 
-## jdtojulian()
-তারিখ থেকে Julian Day Count কে Julian ক্যালেন্ডারে রূপান্তর করে।
+## jdtojulian() = তারিখ থেকে Julian Day Count কে Julian ক্যালেন্ডারে রূপান্তর করে।
 
-## jdtounix()
-Julian Day Count কে Unix timestamp রূপান্তর করে।
+## jdtounix() = Julian Day Count কে Unix timestamp রূপান্তর করে।
 
-## jewishtojd()
-Jewish ক্যালেন্ডারকে Julian Day Count এ রূপান্তর করে।
+## jewishtojd() = Jewish ক্যালেন্ডারকে Julian Day Count এ রূপান্তর করে।
 
-## juliantojd()
-Julian ক্যালেন্ডারকে Julian Day Count এ রূপান্তর করে।
+## juliantojd() = Julian ক্যালেন্ডারকে Julian Day Count এ রূপান্তর করে।
 
-## unixtojd()
-Unix timestamp কে Julian Day Count এ রূপান্তর করে।
+## unixtojd() = Unix timestamp কে Julian Day Count এ রূপান্তর করে।
 
 
 
 
-</h4>
+
